@@ -44,10 +44,7 @@ const router = createRouter({
     }, {
         path: '/appointment',
         name: 'appointment',
-        component: () => import('@/views/appointment/Appointment.vue'),
-        meta: {
-            loading: true
-        }
+        component: () => import('@/views/appointment/Appointment.vue')
     }, {
         path: '/appointment-detail/:doctorID/:date/:half',
         name: 'appointment-detail',
