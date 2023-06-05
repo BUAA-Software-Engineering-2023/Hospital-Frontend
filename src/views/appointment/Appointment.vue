@@ -136,7 +136,7 @@ async function getDepartmentList() {
 // 选取的部门
 const department = ref();
 onMounted(() => {
-    getDepartmentList().then(()=>useCustomLoading().end());
+    getDepartmentList();
     department.value = route.query.department * 1;
     date.value = route.query.date;
     if (!department.value || !date.value)

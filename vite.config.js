@@ -25,7 +25,7 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'http://azure.pesenteur.eu.org:5555/api',
+                target: 'http://azure.pesenteur.eu.org:5555',
                 changeOrigin: true
             }
         }
