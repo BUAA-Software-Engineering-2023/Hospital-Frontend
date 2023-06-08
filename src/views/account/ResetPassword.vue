@@ -6,7 +6,7 @@
             <div>
                 <el-card shadow="never" class="panel">
                     <template #header>
-                        <div class="card-header">注册</div>
+                        <div class="card-header">找回密码</div>
                     </template>
                     <el-form
                             label-width="70px"
@@ -279,11 +279,6 @@ async function resetPassword() {
     width: 100%;
     height: 40px;
     margin: 10px 20px 0 0;
-}
-
-.agree {
-    font-size: 12px;
-    opacity: 50%;
 }
 
 .other-option .option {
