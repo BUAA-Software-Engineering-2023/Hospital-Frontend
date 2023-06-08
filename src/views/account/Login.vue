@@ -42,7 +42,7 @@
                             <span>我已阅读并同意《用户协议》</span>
                         </div>
                         <div class="other-option">
-                            <span class="option">找回密码</span>
+                            <router-link to="/reset-password" class="option">找回密码</router-link>
                             <router-link to="/register" class="option">免费注册</router-link>
                         </div>
                     </el-tab-pane>
